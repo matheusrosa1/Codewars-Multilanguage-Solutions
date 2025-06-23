@@ -1,0 +1,27 @@
+Em uma cidade pequena, a população está no início de um ano. A população aumenta regularmente por ano e, além disso, novos habitantes por ano vêm morar na cidade. Quantos anos a cidade precisa para ver sua população maior ou igual aos habitantes?p0 = 10002 percent50p = 1200
+
+At the end of the first year there will be: 
+1000 + 1000 * 0.02 + 50 => 1070 inhabitants
+
+At the end of the 2nd year there will be: 
+1070 + 1070 * 0.02 + 50 => 1141 inhabitants (** number of inhabitants is an integer **)
+
+At the end of the 3rd year there will be:
+1141 + 1141 * 0.02 + 50 => 1213
+
+It will need 3 entire years.
+Parâmetros dados de forma mais geral:
+
+p0, percent, aug (inhabitants coming or leaving each year), p (population to equal or surpass)
+
+A função deve retornar o número de anos inteiros necessários para obter uma população maior ou igual a .nb_yearnp
+
+aug é um número inteiro, porcentagem um número flutuante positivo ou nulo, p0 e p são inteiros positivos (> 0)
+
+Examples:
+nb_year(1500, 5, 100, 5000) -> 15
+nb_year(1500000, 2.5, 10000, 2000000) -> 10
+Nota:
+Não se esqueça de converter o parâmetro percent como uma porcentagem no corpo da sua função: se o parâmetro percent for 2, você deve convertê-lo para 0,02.
+
+Não há frações de pessoas. No final de cada ano, a contagem da população é um número inteiro: as pessoas arredondam para pessoas.
