@@ -13,4 +13,4 @@ print()
 # A função `end=' '` na chamada de `print()` garante que os números sejam impressos na mesma linha, separados por um espaço.
 # Se você quiser que os números sejam impressos em linhas separadas, você pode remover o `end=' '` e usar apenas `print(i)`
 # ou `print(numbers[i])` dentro do loop.
-# O len - 1 é usado porque queremos compara o elemento atual com o próximo, e o último elemento não tem um próximo para comparar.
+# O len - 1 é usado porque queremos comparar o elemento atual com o próximo, e o último elemento não tem um próximo para comparar.
