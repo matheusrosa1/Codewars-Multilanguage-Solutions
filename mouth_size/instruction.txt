@@ -1,0 +1,7 @@
+O sapo de boca larga está particularmente interessado nos hábitos alimentares de outras criaturas.
+
+Ele simplesmente não consegue parar de perguntar às criaturas que encontra o que elas gostam de comer. Mas, então, ele conhece o jacaré, que simplesmente ADORA comer sapos de boca larga!
+
+Quando ele encontra o jacaré, então ele faz a boca pequena.
+
+Seu objetivo neste kata é criar o método mouth_size completo. Este método recebe um argumento animal, que corresponde ao animal encontrado pelo sapo. Se for um jacaré (insensível a maiúsculas e minúsculas), retorne small; caso contrário, retorne wide.
