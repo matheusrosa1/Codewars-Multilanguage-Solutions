@@ -8,10 +8,12 @@ def contagem_ocorrencias(array):
     else:
       result[palavra] = 1
 
-    duplicados = {}
+  duplicados = {}
 
-    for palavra, quantidade in result.items():
-      if quantidade > 1:
-        duplicados[palavras] = quantidade
+  for palavra, quantidade in result.items():
+    if quantidade > 1:
+      duplicados[palavra] = quantidade
 
-    return duplicados 
+  return duplicados
+
+print(contagem_ocorrencias(["banana", "banana", "abacate", "abacate", "abacate", "uva", "uva", "uva", "uva"]))
