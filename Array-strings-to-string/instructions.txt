@@ -1,0 +1,6 @@
+Crie um método que receba como entrada um nome, cidade e estado para dar as boas-vindas a uma pessoa. Observe que o nome será um array contendo um ou mais valores que devem ser unidos por um espaço, e o comprimento do array de nomes nos casos de teste variará.
+
+Exemplo:
+
+['John', 'Smith'], 'Phoenix', 'Arizona'
+Este exemplo retornará a string "Olá, John Smith! Bem-vindo a Phoenix, Arizona!"

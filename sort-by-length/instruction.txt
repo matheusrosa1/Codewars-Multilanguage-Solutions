@@ -1,0 +1,9 @@
+Escreva uma função que receba uma matriz de strings como argumento e retorne uma matriz classificada contendo as mesmas strings, ordenadas da mais curta para a mais longa.
+
+Por exemplo, se esta matriz fosse passada como argumento:
+
+["Telescopes", "Glasses", "Eyes", "Monocles"]
+Sua função retornaria a seguinte matriz:
+
+["Eyes", "Glasses", "Monocles", "Telescopes"]
+Todas as strings na matriz passadas para sua função terão comprimentos diferentes, então você não precisará decidir como ordenar várias strings do mesmo comprimento.

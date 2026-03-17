@@ -1,0 +1,5 @@
+Escreva uma função que, ao receber uma URL como string, extraia apenas o nome do domínio e o retorne como uma string. Por exemplo:
+
+* url = "http://github.com/carbonfive/raygun" -> nome do domínio = "github"
+* url = "http://www.zombie-bites.com" -> nome do domínio = "zombie-bites"
+* url = "https://www.cnet.com" -> nome do domínio = "cnet"

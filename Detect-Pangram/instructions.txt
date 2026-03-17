@@ -1,0 +1,3 @@
+Um pangrama é uma frase que contém todas as letras do alfabeto pelo menos uma vez. Por exemplo, a frase "The quick brown fox jumps over the lazy dog" é um pangrama, pois utiliza as letras de A a Z pelo menos uma vez (maiúsculas e minúsculas são irrelevantes).
+
+Dada uma string, detecte se ela é ou não um pangrama. Retorne True se for, False caso contrário. Ignore números e pontuação.

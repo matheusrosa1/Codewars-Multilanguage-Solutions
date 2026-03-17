@@ -1,1 +1,4 @@
-print((str(5 + 1)))
+nomes = ["Ana", "Beto", "Carlos"]
+
+for i in range(len(nomes)):
+  print(i, nomes[i])
